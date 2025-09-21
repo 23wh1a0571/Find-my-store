@@ -1,10 +1,33 @@
 # Find-my-store
 FindMyStore is an AI-powered shopping assistant web application designed to streamline the retail shopping experience.
 
+---
+
 ## Features
-- **Nearby Store Finder:** Search stores by city, category, radius, and open status.
-- **Product Availability & Price Comparison:** Find the best prices across stores.
-- **Smart Shopping List & Budget Mode:** Optimize your shopping list to minimize total costs.
-- **Real-Time Stock & Deal Alerts:** Get subscription notifications about stock updates and deals.
-- **AI Chatbot:** Conversational assistant powered by LangChain and Google Gemini LLM, enhanced with retrieval-augmented generation (RAG) for contextual query responses.
-- **Map-Based Navigation:** Integration with Google Maps APIs for store locations and directions.
+
+- Find nearby stores by city and category
+- Compare product prices across multiple stores
+- Optimize shopping lists with budget mode
+- Real-time stock and deal alerts with email notifications
+- Upload PDF/DOCX/TXT documents for AI-assisted Q&A using RAG
+- Interactive AI chatbot with store tools and document context
+
+---
+
+## Tech Stack
+
+| Layer         | Technology                                                                 |
+|---------------|----------------------------------------------------------------------------|
+| Backend       | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)               |
+| Frontend      | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)        |
+| AI / ML       | ![LangChain](https://img.shields.io/badge/LangChain-000000?logo=python&logoColor=white)           |
+| Language Model| ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?logo=google&logoColor=white)  |
+| Maps API     | ![Google Maps API](https://img.shields.io/badge/Google%20Maps-blue?logo=googlemaps&logoColor=white)|
+| Database      | ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)                  |
+| Vector Search | ![FAISS](https://img.shields.io/badge/FAISS-000000?logo=python&logoColor=white)                    |
+| Email Service | ![SMTP Gmail](https://img.shields.io/badge/SMTP%20Gmail-D14836?logo=gmail&logoColor=white)          |
+| Env Management| ![dotenv](https://img.shields.io/badge/dotenv-214B8A?logo=python&logoColor=white)                   |
+| Document Parsing | ![PyPDF](https://img.shields.io/badge/PyPDF-FF6C37?logo=python&logoColor=white), ![python-docx](https://img.shields.io/badge/python--docx-3566AC?logo=python&logoColor=white) |
+| Data Handling | ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)                   |
+| Geo Utility  | ![Geopy](https://img.shields.io/badge/Geopy-60A5FA?logo=python&logoColor=white)                    |
+| Tunneling    | ![Pyngrok](https://img.shields.io/badge/Pyngrok-4F46E5?logo=python&logoColor=white)                |
