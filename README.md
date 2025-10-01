@@ -9,14 +9,24 @@ FindMyStore is an AI-powered shopping assistant web application designed to stre
 Before running the application, ensure you have the following:
 
 - Python 3.8 or higher installed
-- API keys for:
-  - Google Gemini LLM (Google AI language model)
-  - Google Maps API (for store location and navigation)
-  - Google Cloud Platform (GCP) Services
 - Gmail account credentials for sending email alerts like SMTP
 
 **Note:** Create a `.env` file to store your API keys and credentials securely. Do not commit this file to version control.
   
+---
+
+
+## 🔑 API Keys Required
+
+| Service               | Purpose                       |
+| --------------------- | ----------------------------- |
+| Google Gemini LLM     | AI language model (chat, RAG) |
+| Google Maps API       | Store search, navigation      |
+| Vertex AI API         | Model hosting & embeddings    |
+| Compute Engine        | Backend deployment (VMs)      |
+| GCP Services          | Cloud resource management     |
+| Gmail SMTP            | Email alerts & notifications  |
+
 ---
 
 ## Features
