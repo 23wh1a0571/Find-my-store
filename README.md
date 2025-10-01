@@ -12,7 +12,8 @@ Before running the application, ensure you have the following:
 - API keys for:
   - Google Gemini LLM (Google AI language model)
   - Google Maps API (for store location and navigation)
-- Gmail account credentials for sending email alerts
+  - Google Cloud Platform (GCP) Services
+- Gmail account credentials for sending email alerts like SMTP
 
 **Note:** Create a `.env` file to store your API keys and credentials securely. Do not commit this file to version control.
   
