@@ -12,7 +12,19 @@ Before running the application, ensure you have the following:
 - Gmail account credentials for sending email alerts like SMTP
 
 **Note:** Create a `.env` file to store your API keys and credentials securely. Do not commit this file to version control.
-  
+
+---
+
+## Features
+
+- Find nearby stores by city and category
+- Compare product prices across multiple stores
+- Optimize shopping lists with budget mode
+- Real-time stock and deal alerts with email notifications
+- Upload PDF/DOCX/TXT documents for AI-assisted Q&A using RAG
+- Interactive AI chatbot with store tools and document context
+
+
 ---
 
 
@@ -27,16 +39,6 @@ Before running the application, ensure you have the following:
 | GCP Services          | Cloud resource management     |
 | Gmail SMTP            | Email alerts & notifications  |
 
----
-
-## Features
-
-- Find nearby stores by city and category
-- Compare product prices across multiple stores
-- Optimize shopping lists with budget mode
-- Real-time stock and deal alerts with email notifications
-- Upload PDF/DOCX/TXT documents for AI-assisted Q&A using RAG
-- Interactive AI chatbot with store tools and document context
 
 ---
 
